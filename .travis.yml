@@ -7,12 +7,17 @@ php:
   - hhvm
   - nightly
 
+matrix:
+  allow_failures:
+    - php: hhvm
+    - php: nightly
+
 sudo: false
 
 install:
+  - echo $TRAVIS_PHP_VERSION
   - composer selfupdate
   - composer install
-  - echo $TRAVIS_PHP_VERSION
   - if [ "$TRAVIS_PHP_VERSION" == "7" ]; then composer global require --update-no-dev sugared-rim/cs; fi
   - export PATH=$PATH:`composer global config bin-dir --absolute`
 
