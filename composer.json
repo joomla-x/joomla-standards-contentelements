@@ -1,0 +1,75 @@
+{
+    "name": "nibralab/joomla-standards-contenttypes",
+    "description": "Common interfaces for Content Types",
+    "keywords": [
+        "joomla",
+        "joomla-x",
+        "pythagoras",
+        "content-type",
+        "content"
+    ],
+    "license": "GPL2+",
+    "authors": [
+        {
+            "name": "Niels Braczek",
+            "email": "nbraczek@bsds.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Joomla\\Content\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Joomla\\Content\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+              "name": "joomla/joomla-standards",
+              "version": "0.0.0",
+              "source": {
+                "url": "https://github.com/nibra/joomla-standards.git",
+                "type": "git",
+                "reference": "master"
+              }
+            }
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "league/commonmark": "^0.15.3",
+        "joomla/joomla-standards": "*",
+        "sugared-rim/cs": "^2.0"
+    },
+    "scripts": {
+        "build": [
+            "@clean",
+            "php ./bin/build.php"
+        ],
+        "clean": "rm -rf build/ src/* .php_cs.cache",
+        "lint": [
+            "sugared-rim-cs"
+        ],
+        "test": [
+            "@travis",
+            "@lint"
+        ],
+        "travis": [
+            "tests/smoke.php"
+        ]
+    }
+}

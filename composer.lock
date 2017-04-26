@@ -1,0 +1,1771 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "67b52d7396884c78faa5b2ece595d40e",
+    "content-hash": "797c3d29e758d8167ed38a864ddb38ce",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "duncan3dc/bom-string",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/duncan3dc/bom-string.git",
+                "reference": "bddbaf4e8a74b4bc1f2e94d812a6ba20a447a1c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/duncan3dc/bom-string/zipball/bddbaf4e8a74b4bc1f2e94d812a6ba20a447a1c7",
+                "reference": "bddbaf4e8a74b4bc1f2e94d812a6ba20a447a1c7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6|^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "duncan3dc\\Bom\\": "src/",
+                    "duncan3dc\\BomTests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Craig Duncan",
+                    "email": "git@duncanc.co.uk",
+                    "homepage": "https://github.com/duncan3dc",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A small PHP library to handle byte order marks (BOM)",
+            "homepage": "https://github.com/duncan3dc/bom-string",
+            "keywords": [
+                "bom",
+                "utf-16",
+                "utf-8",
+                "utf16",
+                "utf8"
+            ],
+            "time": "2016-10-02 16:11:40"
+        },
+        {
+            "name": "fool/echolog",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/fool/echolog.git",
+                "reference": "b3599334cee9c96a4e5b848fc5e8bdac6ded3958"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/fool/echolog/get/b3599334cee9c96a4e5b848fc5e8bdac6ded3958.zip",
+                "reference": "b3599334cee9c96a4e5b848fc5e8bdac6ded3958",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/log": "1.0.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "fool\\echolog\\": "src\\fool\\echolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jordan Sterling",
+                    "email": "jordan@jordansterling.com",
+                    "homepage": "https://bitbucket.org/fool"
+                }
+            ],
+            "description": "Echo logger",
+            "homepage": "https://bitbucket.org/fool/echolog",
+            "keywords": [
+                "PSR3",
+                "log",
+                "logger",
+                "logging"
+            ],
+            "time": "2014-07-18 08:43:40"
+        },
+        {
+            "name": "friendsofphp/php-cs-fixer",
+            "version": "v1.13.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
+                "reference": "0ea4f7ed06ca55da1d8fc45da26ff87f261c4088"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/0ea4f7ed06ca55da1d8fc45da26ff87f261c4088",
+                "reference": "0ea4f7ed06ca55da1d8fc45da26ff87f261c4088",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": "^5.3.6 || >=7.0 <7.2",
+                "sebastian/diff": "^1.1",
+                "symfony/console": "^2.3 || ^3.0",
+                "symfony/event-dispatcher": "^2.1 || ^3.0",
+                "symfony/filesystem": "^2.1 || ^3.0",
+                "symfony/finder": "^2.1 || ^3.0",
+                "symfony/process": "^2.3 || ^3.0",
+                "symfony/stopwatch": "^2.5 || ^3.0"
+            },
+            "conflict": {
+                "hhvm": "<3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.5|^5",
+                "satooshi/php-coveralls": "^1.0"
+            },
+            "bin": [
+                "php-cs-fixer"
+            ],
+            "type": "application",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\CS\\": "Symfony/CS/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dariusz Rumiński",
+                    "email": "dariusz.ruminski@gmail.com"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "A tool to automatically fix PHP code style",
+            "time": "2016-12-01 00:05:05"
+        },
+        {
+            "name": "joomla/joomla-standards",
+            "version": "0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nibra/joomla-standards.git",
+                "reference": "master"
+            },
+            "type": "library"
+        },
+        {
+            "name": "kherge/file",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kherge-abandoned/php-file.git",
+                "reference": "fe85c4510f86d90f32d29dd9cee27ef19a214388"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kherge-abandoned/php-file/zipball/fe85c4510f86d90f32d29dd9cee27ef19a214388",
+                "reference": "fe85c4510f86d90f32d29dd9cee27ef19a214388",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "KHerGe\\File\\": "src/lib/KHerGe/File"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Herrera",
+                    "email": "kevin@herrera.io",
+                    "homepage": "http://kevin.herrera.io/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An extension of SplFileObject that uses exceptions.",
+            "keywords": [
+                "exception",
+                "file",
+                "object"
+            ],
+            "abandoned": "kherge/file-manager",
+            "time": "2015-05-08 15:46:43"
+        },
+        {
+            "name": "league/commonmark",
+            "version": "0.15.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/commonmark.git",
+                "reference": "c8b43ee5821362216f8e9ac684f0f59de164edcc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/c8b43ee5821362216f8e9ac684f0f59de164edcc",
+                "reference": "c8b43ee5821362216f8e9ac684f0f59de164edcc",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.4.8"
+            },
+            "replace": {
+                "colinodell/commonmark-php": "*"
+            },
+            "require-dev": {
+                "cebe/markdown": "~1.0",
+                "erusev/parsedown": "~1.0",
+                "jgm/commonmark": "0.27",
+                "michelf/php-markdown": "~1.4",
+                "mikehaertl/php-shellcommand": "~1.2.0",
+                "phpunit/phpunit": "~4.3|~5.0",
+                "scrutinizer/ocular": "~1.1",
+                "symfony/finder": "~2.3|~3.0"
+            },
+            "suggest": {
+                "league/commonmark-extras": "Library of useful extensions including smart punctuation"
+            },
+            "bin": [
+                "bin/commonmark"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.16-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\CommonMark\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Colin O'Dell",
+                    "email": "colinodell@gmail.com",
+                    "homepage": "https://www.colinodell.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Markdown parser for PHP based on the CommonMark spec",
+            "homepage": "https://github.com/thephpleague/commonmark",
+            "keywords": [
+                "commonmark",
+                "markdown",
+                "parser"
+            ],
+            "time": "2016-12-19 00:11:43"
+        },
+        {
+            "name": "pdepend/pdepend",
+            "version": "2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pdepend/pdepend.git",
+                "reference": "0c50874333149c0dad5a2877801aed148f2767ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pdepend/pdepend/zipball/0c50874333149c0dad5a2877801aed148f2767ff",
+                "reference": "0c50874333149c0dad5a2877801aed148f2767ff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.7",
+                "symfony/config": "^2.3.0|^3",
+                "symfony/dependency-injection": "^2.3.0|^3",
+                "symfony/filesystem": "^2.3.0|^3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.4.0,<4.8",
+                "squizlabs/php_codesniffer": "^2.0.0"
+            },
+            "bin": [
+                "src/bin/pdepend"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PDepend\\": "src/main/php/PDepend"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Official version of pdepend to be handled with Composer",
+            "time": "2017-01-19 14:23:36"
+        },
+        {
+            "name": "phpmd/phpmd",
+            "version": "2.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpmd/phpmd.git",
+                "reference": "4e9924b2c157a3eb64395460fcf56b31badc8374"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpmd/phpmd/zipball/4e9924b2c157a3eb64395460fcf56b31badc8374",
+                "reference": "4e9924b2c157a3eb64395460fcf56b31badc8374",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xml": "*",
+                "pdepend/pdepend": "^2.5",
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0",
+                "squizlabs/php_codesniffer": "^2.0"
+            },
+            "bin": [
+                "src/bin/phpmd"
+            ],
+            "type": "project",
+            "autoload": {
+                "psr-0": {
+                    "PHPMD\\": "src/main/php"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Manuel Pichler",
+                    "email": "github@manuel-pichler.de",
+                    "homepage": "https://github.com/manuelpichler",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Other contributors",
+                    "homepage": "https://github.com/phpmd/phpmd/graphs/contributors",
+                    "role": "Contributors"
+                },
+                {
+                    "name": "Marc Würth",
+                    "email": "ravage@bluewin.ch",
+                    "homepage": "https://github.com/ravage84",
+                    "role": "Project Maintainer"
+                }
+            ],
+            "description": "PHPMD is a spin-off project of PHP Depend and aims to be a PHP equivalent of the well known Java tool PMD.",
+            "homepage": "http://phpmd.org/",
+            "keywords": [
+                "mess detection",
+                "mess detector",
+                "pdepend",
+                "phpmd",
+                "pmd"
+            ],
+            "time": "2017-01-20 14:41:10"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "schnittstabil/composer-extra",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schnittstabil/composer-extra.git",
+                "reference": "6af19f1bed38610a6374367945ec6cf12b0735ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/schnittstabil/composer-extra/zipball/6af19f1bed38610a6374367945ec6cf12b0735ef",
+                "reference": "6af19f1bed38610a6374367945ec6cf12b0735ef",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "schnittstabil/config_merge": "^2.0",
+                "schnittstabil/get": "^2.0",
+                "schnittstabil/json-decode-file": "^1.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^1.0",
+                "phpmd/phpmd": "^2.3",
+                "phpmetrics/phpmetrics": "^1.10",
+                "phpunit/phpunit": "^5.3",
+                "squizlabs/php_codesniffer": "^2.5"
+            },
+            "type": "library",
+            "extra": {
+                "schnittstabil/composer-extra": {
+                    "unicorns": 42,
+                    "composerJson": true
+                },
+                "disable presets": {
+                    "presets": false,
+                    "unicorns": 42,
+                    "composerJson": true
+                },
+                "empty presets": {
+                    "unicorns": 42,
+                    "composerJson": true
+                },
+                "multiple presets": {
+                    "unicorns": 42,
+                    "composerJson": true
+                },
+                "override presets": {
+                    "presets": [
+                        "Schnittstabil\\ComposerExtra\\Presets\\SecondPreset::get"
+                    ],
+                    "unicorns": 42,
+                    "composerJson": true
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Schnittstabil\\ComposerExtra\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Mayer",
+                    "email": "michael@schnittstabil.de"
+                }
+            ],
+            "description": "Get namespaced configuration from composer.json `extra`",
+            "keywords": [
+                "composer",
+                "composer.json",
+                "configuration",
+                "extra"
+            ],
+            "time": "2016-10-30 22:20:16"
+        },
+        {
+            "name": "schnittstabil/config_merge",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schnittstabil/config_merge.git",
+                "reference": "469eb0ea7417b913aa6c46daade2073d2d16681e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/schnittstabil/config_merge/zipball/469eb0ea7417b913aa6c46daade2073d2d16681e",
+                "reference": "469eb0ea7417b913aa6c46daade2073d2d16681e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "^0.3.0",
+                "fabpot/php-cs-fixer": "^1.10",
+                "phpunit/phpunit": "^5.3",
+                "satooshi/php-coveralls": "^1.0",
+                "squizlabs/php_codesniffer": "^2.6"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/config_merge.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Mayer",
+                    "email": "michael@schnittstabil.de"
+                }
+            ],
+            "description": "Merge config arrays",
+            "keywords": [
+                "array",
+                "assoc",
+                "merge",
+                "recursive",
+                "sequential"
+            ],
+            "time": "2016-04-14 18:11:43"
+        },
+        {
+            "name": "schnittstabil/finder-by-config",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schnittstabil/finder-by-config.git",
+                "reference": "bc62fb1f410a7950ed3ac2556f2f347dbf004236"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/schnittstabil/finder-by-config/zipball/bc62fb1f410a7950ed3ac2556f2f347dbf004236",
+                "reference": "bc62fb1f410a7950ed3ac2556f2f347dbf004236",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "schnittstabil/get": "^2.0",
+                "symfony/finder": "^3.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "^0.3",
+                "satooshi/php-coveralls": "^1.0",
+                "schnittstabil/phpunit-starter": "^0.1",
+                "squizlabs/php_codesniffer": "^2.6"
+            },
+            "type": "library",
+            "extra": {
+                "you/your-package": {
+                    "simple": [
+                        "src",
+                        "composer.json"
+                    ],
+                    "extended": {
+                        "in": [
+                            "."
+                        ],
+                        "name": [
+                            "*.php",
+                            "*.json"
+                        ],
+                        "notName": [
+                            "*Test.php"
+                        ],
+                        "size": [
+                            "> 1K"
+                        ],
+                        "exclude": [
+                            "build",
+                            "vendor"
+                        ],
+                        "sortByName": true,
+                        "ignoreDotFiles": true,
+                        "ignoreVCS": true,
+                        "followLinks": false,
+                        "ignoreUnreadableDirs": false
+                    },
+                    "in-string": {
+                        "in": "tests/fixtures"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Schnittstabil\\FinderByConfig\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Mayer",
+                    "email": "michael@schnittstabil.de"
+                }
+            ],
+            "description": "Create Symfony\\Component\\Finder instances by configuration",
+            "keywords": [
+                "config",
+                "finder"
+            ],
+            "time": "2016-04-15 17:10:38"
+        },
+        {
+            "name": "schnittstabil/get",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schnittstabil/get.git",
+                "reference": "f8b483d806e006b03a736bad32182da1fb3467c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/schnittstabil/get/zipball/f8b483d806e006b03a736bad32182da1fb3467c1",
+                "reference": "f8b483d806e006b03a736bad32182da1fb3467c1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "schnittstabil/phpunit-starter": "^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "schnittstabil/sugared-phpunit": {
+                    "bootstrap": "tests/bootstrap.php"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Schnittstabil\\Get\\": "src"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Mayer",
+                    "email": "michael@schnittstabil.de"
+                }
+            ],
+            "description": "Get nested array values and object properties.",
+            "homepage": "https://github.com/schnittstabil/get",
+            "keywords": [
+                "array",
+                "coalescing",
+                "get",
+                "nested",
+                "null",
+                "object",
+                "value"
+            ],
+            "time": "2017-02-14 15:15:41"
+        },
+        {
+            "name": "schnittstabil/json-decode-file",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schnittstabil/json-decode-file.git",
+                "reference": "ca03c0785d1805d9960da95a281bd7c0c0d81f26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/schnittstabil/json-decode-file/zipball/ca03c0785d1805d9960da95a281bd7c0c0d81f26",
+                "reference": "ca03c0785d1805d9960da95a281bd7c0c0d81f26",
+                "shasum": ""
+            },
+            "require": {
+                "duncan3dc/bom-string": "^0.1.0|^0.2.0",
+                "kherge/file": "^1.0",
+                "php": ">=5.6.0",
+                "seld/jsonlint": "^1.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "^0.3",
+                "satooshi/php-coveralls": "^1.0",
+                "vladahejda/phpunit-assert-exception": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "schnittstabil/sugared-phpunit": {
+                    "bootstrap": "tests/bootstrap.php"
+                },
+                "schnittstabil/sugared-phpmd": {
+                    "inputPath": "src/JsonDecodeFile.php,tests"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Schnittstabil\\JsonDecodeFile\\": "src"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Mayer",
+                    "email": "michael@schnittstabil.de"
+                }
+            ],
+            "description": "Read and decode JSON files",
+            "keywords": [
+                "UTF",
+                "bom",
+                "decode",
+                "exception",
+                "file",
+                "file_get_contents",
+                "json",
+                "json_decode",
+                "parse",
+                "validator"
+            ],
+            "time": "2016-10-30 20:46:51"
+        },
+        {
+            "name": "sebastian/diff",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/diff.git",
+                "reference": "13edfd8706462032c2f52b4b862974dd46b71c9e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/13edfd8706462032c2f52b4b862974dd46b71c9e",
+                "reference": "13edfd8706462032c2f52b4b862974dd46b71c9e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kore Nordmann",
+                    "email": "mail@kore-nordmann.de"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Diff implementation",
+            "homepage": "https://github.com/sebastianbergmann/diff",
+            "keywords": [
+                "diff"
+            ],
+            "time": "2015-12-08 07:14:41"
+        },
+        {
+            "name": "seld/jsonlint",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/jsonlint.git",
+                "reference": "791f8c594f300d246cdf01c6b3e1e19611e301d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/791f8c594f300d246cdf01c6b3e1e19611e301d8",
+                "reference": "791f8c594f300d246cdf01c6b3e1e19611e301d8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.5"
+            },
+            "bin": [
+                "bin/jsonlint"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Seld\\JsonLint\\": "src/Seld/JsonLint/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "JSON Linter",
+            "keywords": [
+                "json",
+                "linter",
+                "parser",
+                "validator"
+            ],
+            "time": "2017-03-06 16:42:24"
+        },
+        {
+            "name": "squizlabs/php_codesniffer",
+            "version": "2.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+                "reference": "d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d",
+                "reference": "d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-simplexml": "*",
+                "ext-tokenizer": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.1.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "bin": [
+                "scripts/phpcs",
+                "scripts/phpcbf"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "CodeSniffer.php",
+                    "CodeSniffer/CLI.php",
+                    "CodeSniffer/Exception.php",
+                    "CodeSniffer/File.php",
+                    "CodeSniffer/Fixer.php",
+                    "CodeSniffer/Report.php",
+                    "CodeSniffer/Reporting.php",
+                    "CodeSniffer/Sniff.php",
+                    "CodeSniffer/Tokens.php",
+                    "CodeSniffer/Reports/",
+                    "CodeSniffer/Tokenizers/",
+                    "CodeSniffer/DocGenerators/",
+                    "CodeSniffer/Standards/AbstractPatternSniff.php",
+                    "CodeSniffer/Standards/AbstractScopeSniff.php",
+                    "CodeSniffer/Standards/AbstractVariableSniff.php",
+                    "CodeSniffer/Standards/IncorrectPatternException.php",
+                    "CodeSniffer/Standards/Generic/Sniffs/",
+                    "CodeSniffer/Standards/MySource/Sniffs/",
+                    "CodeSniffer/Standards/PEAR/Sniffs/",
+                    "CodeSniffer/Standards/PSR1/Sniffs/",
+                    "CodeSniffer/Standards/PSR2/Sniffs/",
+                    "CodeSniffer/Standards/Squiz/Sniffs/",
+                    "CodeSniffer/Standards/Zend/Sniffs/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Greg Sherwood",
+                    "role": "lead"
+                }
+            ],
+            "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+            "homepage": "http://www.squizlabs.com/php-codesniffer",
+            "keywords": [
+                "phpcs",
+                "standards"
+            ],
+            "time": "2017-03-01 22:17:45"
+        },
+        {
+            "name": "sugared-rim/cs",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sugared-rim/cs.git",
+                "reference": "8764c11f944d4e7b6c34133768497fb5a5b23e11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sugared-rim/cs/zipball/8764c11f944d4e7b6c34133768497fb5a5b23e11",
+                "reference": "8764c11f944d4e7b6c34133768497fb5a5b23e11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "sugared-rim/php-cs-fixer": "^2.0",
+                "sugared-rim/php_codesniffer": "^2.0",
+                "sugared-rim/phpmd": "^2.0"
+            },
+            "bin": [
+                "sugared-rim-cs"
+            ],
+            "type": "library",
+            "extra": {
+                "sugared-rim/php_codesniffer": {
+                    "files": "sugared-rim-cs"
+                },
+                "sugared-rim/php-cs-fixer": {
+                    "path": "sugared-rim-cs"
+                },
+                "sugared-rim/phpmd": {
+                    "inputPath": "sugared-rim-cs"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SugaredRim\\PhpCsFixer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Mayer",
+                    "email": "michael@schnittstabil.de"
+                }
+            ],
+            "description": "Bunch of PHP codestyle linters sweetened with ease",
+            "keywords": [
+                "PHP_CodeSniffer",
+                "cs",
+                "lint",
+                "mess detection",
+                "mess detector",
+                "php-cs-fixer",
+                "phpcs",
+                "phpmd",
+                "preconfigured",
+                "standards",
+                "sugared",
+                "sugared-rim"
+            ],
+            "time": "2016-11-09 04:40:01"
+        },
+        {
+            "name": "sugared-rim/php-cs-fixer",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sugared-rim/php-cs-fixer.git",
+                "reference": "4d4bdb161083a1ee002c181644d94ea44a3f5961"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sugared-rim/php-cs-fixer/zipball/4d4bdb161083a1ee002c181644d94ea44a3f5961",
+                "reference": "4d4bdb161083a1ee002c181644d94ea44a3f5961",
+                "shasum": ""
+            },
+            "require": {
+                "friendsofphp/php-cs-fixer": "^1.0",
+                "php": ">=5.6.0",
+                "schnittstabil/composer-extra": "^1.0",
+                "schnittstabil/finder-by-config": "^0.1",
+                "schnittstabil/get": "^2.0"
+            },
+            "require-dev": {
+                "sugared-rim/phpunit": "^2.0"
+            },
+            "bin": [
+                "sugared-rim-php-cs-fixer"
+            ],
+            "type": "library",
+            "extra": {
+                "sugared-rim/php-cs-fixer no-presets": {
+                    "presets": false
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SugaredRim\\PhpCsFixer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Mayer",
+                    "email": "michael@schnittstabil.de"
+                }
+            ],
+            "description": "PHP-CS-Fixer sweetened with ease",
+            "keywords": [
+                "cs",
+                "lint",
+                "php-cs-fixer",
+                "preconfigured",
+                "standards",
+                "sugared",
+                "sugared-rim"
+            ],
+            "time": "2016-11-08 21:52:26"
+        },
+        {
+            "name": "sugared-rim/php_codesniffer",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sugared-rim/php_codesniffer.git",
+                "reference": "061cc58043dff53cbdd0e51b716e82f989ef2b01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sugared-rim/php_codesniffer/zipball/061cc58043dff53cbdd0e51b716e82f989ef2b01",
+                "reference": "061cc58043dff53cbdd0e51b716e82f989ef2b01",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "schnittstabil/composer-extra": "^1.0",
+                "schnittstabil/finder-by-config": "^0.1",
+                "squizlabs/php_codesniffer": "^2.6.1"
+            },
+            "require-dev": {
+                "sugared-rim/phpunit": "^2.0"
+            },
+            "bin": [
+                "sugared-rim-phpcbf",
+                "sugared-rim-phpcs"
+            ],
+            "type": "library",
+            "extra": {
+                "sugared-rim/php_codesniffer test namespace": {
+                    "default_standard": [
+                        "PSR1",
+                        "PSR2"
+                    ],
+                    "files": {
+                        "in": "tests/fixtures"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SugaredRim\\PHP\\CodeSniffer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Mayer",
+                    "email": "michael@schnittstabil.de"
+                }
+            ],
+            "description": "PHP_CodeSniffer sweetened with ease",
+            "keywords": [
+                "PHP_CodeSniffer",
+                "phpcs",
+                "preconfigured",
+                "standards",
+                "sugared",
+                "sugared-rim"
+            ],
+            "time": "2016-11-08 20:37:12"
+        },
+        {
+            "name": "sugared-rim/phpmd",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sugared-rim/phpmd.git",
+                "reference": "b74b636d72b3df4404bdd06ee936b401b4e89d0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sugared-rim/phpmd/zipball/b74b636d72b3df4404bdd06ee936b401b4e89d0f",
+                "reference": "b74b636d72b3df4404bdd06ee936b401b4e89d0f",
+                "shasum": ""
+            },
+            "require": {
+                "fool/echolog": "^1.0",
+                "php": ">=5.6.0",
+                "phpmd/phpmd": "^2.3",
+                "schnittstabil/composer-extra": "^1.0"
+            },
+            "require-dev": {
+                "gamez/psr-testlogger": "^1.0",
+                "sugared-rim/phpunit": "^2.0",
+                "vladahejda/phpunit-assert-exception": "^1.0"
+            },
+            "bin": [
+                "sugared-rim-phpmd"
+            ],
+            "type": "library",
+            "extra": {
+                "sugared-rim/phpmd invalid inputfile": {
+                    "inputfile": ""
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SugaredRim\\PHPMD\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Mayer",
+                    "email": "michael@schnittstabil.de"
+                }
+            ],
+            "description": "PHPMD sweetened with ease",
+            "keywords": [
+                "mess detection",
+                "mess detector",
+                "phpmd",
+                "pmd",
+                "preconfigured",
+                "standards",
+                "sugared",
+                "sugared-rim"
+            ],
+            "time": "2016-11-09 03:49:10"
+        },
+        {
+            "name": "symfony/config",
+            "version": "v3.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/config.git",
+                "reference": "8444bde28e3c2a33e571e6f180c2d78bfdc4480d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/config/zipball/8444bde28e3c2a33e571e6f180c2d78bfdc4480d",
+                "reference": "8444bde28e3c2a33e571e6f180c2d78bfdc4480d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/filesystem": "~2.8|~3.0"
+            },
+            "require-dev": {
+                "symfony/yaml": "~3.0"
+            },
+            "suggest": {
+                "symfony/yaml": "To use the yaml reference dumper"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Config\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Config Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-04-04 15:30:56"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v3.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "c30243cc51f726812be3551316b109a2f5deaf8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/c30243cc51f726812be3551316b109a2f5deaf8d",
+                "reference": "c30243cc51f726812be3551316b109a2f5deaf8d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/debug": "~2.8|~3.0",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/event-dispatcher": "~2.8|~3.0",
+                "symfony/filesystem": "~2.8|~3.0",
+                "symfony/process": "~2.8|~3.0"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/filesystem": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Console\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-04-04 14:33:42"
+        },
+        {
+            "name": "symfony/debug",
+            "version": "v3.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/debug.git",
+                "reference": "56f613406446a4a0a031475cfd0a01751de22659"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/56f613406446a4a0a031475cfd0a01751de22659",
+                "reference": "56f613406446a4a0a031475cfd0a01751de22659",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "psr/log": "~1.0"
+            },
+            "conflict": {
+                "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
+            },
+            "require-dev": {
+                "symfony/class-loader": "~2.8|~3.0",
+                "symfony/http-kernel": "~2.8|~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Debug\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Debug Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-03-28 21:38:24"
+        },
+        {
+            "name": "symfony/dependency-injection",
+            "version": "v3.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dependency-injection.git",
+                "reference": "923bb014708b666e4092c9ba39993895c9c8fcd7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/923bb014708b666e4092c9ba39993895c9c8fcd7",
+                "reference": "923bb014708b666e4092c9ba39993895c9c8fcd7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "conflict": {
+                "symfony/yaml": "<3.2"
+            },
+            "require-dev": {
+                "symfony/config": "~2.8|~3.0",
+                "symfony/expression-language": "~2.8|~3.0",
+                "symfony/yaml": "~3.2"
+            },
+            "suggest": {
+                "symfony/config": "",
+                "symfony/expression-language": "For using expressions in service container configuration",
+                "symfony/proxy-manager-bridge": "Generate service proxies to lazy load them",
+                "symfony/yaml": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\DependencyInjection\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony DependencyInjection Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-04-04 07:26:27"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "v3.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/event-dispatcher.git",
+                "reference": "154bb1ef7b0e42ccc792bd53edbce18ed73440ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/154bb1ef7b0e42ccc792bd53edbce18ed73440ca",
+                "reference": "154bb1ef7b0e42ccc792bd53edbce18ed73440ca",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "~2.8|~3.0",
+                "symfony/dependency-injection": "~2.8|~3.0",
+                "symfony/expression-language": "~2.8|~3.0",
+                "symfony/stopwatch": "~2.8|~3.0"
+            },
+            "suggest": {
+                "symfony/dependency-injection": "",
+                "symfony/http-kernel": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\EventDispatcher\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony EventDispatcher Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-04-04 07:26:27"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v3.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/filesystem.git",
+                "reference": "64421e6479c4a8e60d790fb666bd520992861b66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/64421e6479c4a8e60d790fb666bd520992861b66",
+                "reference": "64421e6479c4a8e60d790fb666bd520992861b66",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-03-26 15:47:15"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v3.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/finder.git",
+                "reference": "b20900ce5ea164cd9314af52725b0bb5a758217a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/b20900ce5ea164cd9314af52725b0bb5a758217a",
+                "reference": "b20900ce5ea164cd9314af52725b0bb5a758217a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Finder\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Finder Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-03-20 09:32:19"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2016-11-14 01:06:16"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v3.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "57fdaa55827ae14d617550ebe71a820f0a5e2282"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/57fdaa55827ae14d617550ebe71a820f0a5e2282",
+                "reference": "57fdaa55827ae14d617550ebe71a820f0a5e2282",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-03-27 18:07:02"
+        },
+        {
+            "name": "symfony/stopwatch",
+            "version": "v3.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/stopwatch.git",
+                "reference": "c5ee0f8650c84b4d36a5f76b3b504233feaabf75"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/c5ee0f8650c84b4d36a5f76b3b504233feaabf75",
+                "reference": "c5ee0f8650c84b4d36a5f76b3b504233feaabf75",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Stopwatch\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Stopwatch Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-02-18 17:28:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}
