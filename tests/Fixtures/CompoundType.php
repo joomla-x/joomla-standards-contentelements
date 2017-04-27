@@ -9,7 +9,7 @@ use Joomla\Content\ContentTypeVisitorInterface;
 class CompoundType implements CompoundTypeInterface
 {
     /**
-     * Visits the content type.
+     * Visit the content type.
      *
      * @param ContentTypeVisitorInterface $visitor The Visitor
      */
@@ -18,7 +18,7 @@ class CompoundType implements CompoundTypeInterface
     }
 
     /**
-     * Gets the identifier for the content.
+     * Get the identifier for the content.
      *
      * @return string
      */
@@ -28,7 +28,7 @@ class CompoundType implements CompoundTypeInterface
     }
 
     /**
-     * Gets the title for the content.
+     * Get the title for the content.
      *
      * @return string
      */
@@ -38,7 +38,7 @@ class CompoundType implements CompoundTypeInterface
     }
 
     /**
-     * Gets the parameters for the content.
+     * Get the parameters for the content.
      *
      * @return array
      */
@@ -48,7 +48,7 @@ class CompoundType implements CompoundTypeInterface
     }
 
     /**
-     * Gets the parameters for the content.
+     * Get the parameters for the content.
      *
      * @param string $key     The key
      * @param mixed  $default The default value
@@ -65,7 +65,26 @@ class CompoundType implements CompoundTypeInterface
      *
      * @param ContentTypeInterface $content The content element
      */
-    public function add(ContentTypeInterface $content)
+    public function addChild(ContentTypeInterface $content)
     {
+    }
+
+    /**
+     * Remove a content element.
+     *
+     * @param ContentTypeInterface $content The content element
+     */
+    public function removeChild(ContentTypeInterface $content)
+    {
+    }
+
+    /**
+     * Get the child elements.
+     *
+     * @return ContentTypeInterface[]
+     */
+    public function getChildren()
+    {
+        return [];
     }
 }

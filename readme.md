@@ -17,4 +17,4 @@ $ composer require nibra/joomla-standards-contenttypes
 
 ## License
 
-GPL2+
+MIT License

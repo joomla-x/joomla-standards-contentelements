@@ -8,7 +8,7 @@ use Joomla\Content\ContentTypeVisitorInterface;
 class ContentType implements ContentTypeInterface
 {
     /**
-     * Visits the content type.
+     * Visit the content type.
      *
      * @param ContentTypeVisitorInterface $visitor The Visitor
      */
@@ -17,7 +17,7 @@ class ContentType implements ContentTypeInterface
     }
 
     /**
-     * Gets the identifier for the content.
+     * Get the identifier for the content.
      *
      * @return string
      */
@@ -27,7 +27,7 @@ class ContentType implements ContentTypeInterface
     }
 
     /**
-     * Gets the title for the content.
+     * Get the title for the content.
      *
      * @return string
      */
@@ -37,7 +37,7 @@ class ContentType implements ContentTypeInterface
     }
 
     /**
-     * Gets the parameters for the content.
+     * Get the parameters for the content.
      *
      * @return array
      */
@@ -47,7 +47,7 @@ class ContentType implements ContentTypeInterface
     }
 
     /**
-     * Gets the parameters for the content.
+     * Get the parameters for the content.
      *
      * @param string $key     The key
      * @param mixed  $default The default value

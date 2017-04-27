@@ -26,7 +26,7 @@ while ($event = $walker->next()) {
     $code = trim($node->getStringContent())."\n";
 
     if (substr($code, 0, 5) !== '<?php') {
-        $code = "<?php\n".trim($code)."\n";
+        $code = "<?php\n\n".$code;
     }
 
     if (preg_match('/^interface\s+(?<name>[^\s]+)/m', $code, $matches)) {
