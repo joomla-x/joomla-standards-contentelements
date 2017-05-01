@@ -1,4 +1,4 @@
-# Common interfaces for Content Types (pre-Draft) [![Build Status](https://travis-ci.org/nibra/joomla-standards-contenttypes.svg?branch=master)](https://travis-ci.org/nibra/joomla-standards-contenttypes)
+# Common Interfaces for Content Elements (pre-Draft) [![Build Status](https://travis-ci.org/nibra/joomla-standards-contenttypes.svg?branch=master)](https://travis-ci.org/nibra/joomla-standards-contenttypes)
 
 **The interfaces provided here are generated.**
 
