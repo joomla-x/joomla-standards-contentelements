@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3c8d6664c6921ab83fc65ddaf4fb3087",
-    "content-hash": "2505b9bff5596862d4b519de37406989",
+    "hash": "87195e1515ce1c61b5ad98cebe2e6fe1",
+    "content-hash": "f49f942b4586204e688e452cdfc3e8ed",
     "packages": [],
     "packages-dev": [
         {
@@ -166,7 +166,7 @@
         },
         {
             "name": "joomla/joomla-standards",
-            "version": "0.0.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nibra/joomla-standards.git",

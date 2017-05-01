@@ -7,7 +7,7 @@ use League\CommonMark\Block\Element\FencedCode;
 require_once __DIR__.'/../vendor/autoload.php';
 
 $interfaces = [];
-$filename = __DIR__.'/../vendor/joomla/joomla-standards/proposed/content.md';
+$filename = __DIR__.'/../vendor/joomla/joomla-standards/proposed/content-elements.md';
 $walker = (new DocParser(Environment::createCommonMarkEnvironment()))
     ->parse(file_get_contents($filename))
     ->walker();

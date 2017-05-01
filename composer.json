@@ -38,7 +38,7 @@
             "type": "package",
             "package": {
               "name": "joomla/joomla-standards",
-              "version": "0.0.0",
+              "version": "0.2.1",
               "source": {
                 "url": "https://github.com/nibra/joomla-standards.git",
                 "type": "git",
