@@ -70,6 +70,10 @@
         ],
         "travis": [
             "tests/smoke.php"
+        ],
+        "pull": [
+            "rm -rf vendor",
+            "composer install"
         ]
     }
 }

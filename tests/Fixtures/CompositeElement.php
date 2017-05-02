@@ -13,10 +13,11 @@ class CompositeElement implements CompositeElementInterface
      *
      * @param array|object $data    The data container
      * @param array        $mapping The property mapping
+     * @param array        $params  The presentation parameters
      *
-     * @return ContentElementInterface
+     * @return self
      */
-    public static function from($data, $mapping = [])
+    public static function from($data, $mapping = [], $params = [])
     {
         return new self();
     }
@@ -60,6 +61,9 @@ class CompositeElement implements CompositeElementInterface
 
     /**
      * Get the value of a property.
+     *
+     * @param string $property The property
+     * @param mixed  $default  The default value
      *
      * @return mixed
      */
