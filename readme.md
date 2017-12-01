@@ -1,14 +1,14 @@
-# Common Interfaces for Content Elements (pre-Draft) [![Build Status](https://travis-ci.org/nibra/joomla-standards-contenttypes.svg?branch=master)](https://travis-ci.org/nibra/joomla-standards-contenttypes)
+# Common Interfaces for Content Elements (pre-Draft) [![Build Status](https://travis-ci.org/joomla-x/joomla-standards-contentelements.svg?branch=master)](https://travis-ci.org/joomla-x/joomla-standards-contentelements)
 
 **The interfaces provided here are generated.**
 
-If you want to propose changes, please create PRs against the files at [https://github.com/nibra/joomla-standards](https://github.com/nibra/joomla-standards) instead.
+If you want to propose changes, please create PRs against the files at [https://github.com/joomla-x/joomla-standards](https://github.com/joomla-x/joomla-standards) instead.
 
 
 ## Install
 
 ```
-$ composer require nibra/joomla-standards-contenttypes
+$ composer require joomla-x/joomla-standards-contentelements
 ```
 
 
