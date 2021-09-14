@@ -51,8 +51,8 @@
         "php": ">=5.3.0"
     },
     "require-dev": {
-        "league/commonmark": "^0.15.3",
-        "joomla/joomla-standards": "*"
+        "joomla/joomla-standards": "*",
+        "league/commonmark": "^0.18.3"
     },
     "scripts": {
         "build": [
