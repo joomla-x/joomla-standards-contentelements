@@ -52,8 +52,7 @@
     },
     "require-dev": {
         "league/commonmark": "^0.15.3",
-        "joomla/joomla-standards": "*",
-        "sugared-rim/cs": "^2.0"
+        "joomla/joomla-standards": "*"
     },
     "scripts": {
         "build": [
@@ -61,9 +60,6 @@
             "php ./bin/build.php"
         ],
         "clean": "rm -rf build/ src/* .php_cs.cache",
-        "lint": [
-            "sugared-rim-cs"
-        ],
         "test": [
             "@travis",
             "@lint"
