@@ -52,7 +52,7 @@
     },
     "require-dev": {
         "joomla/joomla-standards": "*",
-        "league/commonmark": "^0.18.3"
+        "league/commonmark": "^2.6.0"
     },
     "scripts": {
         "build": [
